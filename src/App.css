@@ -1,3 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: #2C528C;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item{
+  background-color: #51A0D5;
+  border: 1px solid black;
+  flex-basis: calc(100%/3);
+}
+input {
+  background-color: #51A0D5;
+    border: 0;
+    height: 40px;
+    width: 20%;
+    font-size: xx-large;
+    margin: 50px 0;
+}
+.arrow{
+    width: 60px;
+    position: relative;
+    left: 44%;
+}
 .App {
   text-align: center;
 }
